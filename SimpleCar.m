@@ -27,6 +27,11 @@
     model = [[NSString alloc] initWithString:newModel];
 }
 
+- (void) setReg:    (NSNumber*)newReg{
+    reg = [[NSNumber alloc] init];
+    reg = newReg;
+}
+
 
 //convenience set method
 - (void) setMake:(NSString *)newMake

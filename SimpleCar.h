@@ -12,12 +12,14 @@
     NSString *make;
     NSString *model;
     NSNumber *vin;
+    NSNumber *reg;
 }
 
 //set methods
 - (void) setVin:    (NSNumber*)newVin;
 - (void) setMake:   (NSString*)newMake;
-- (void) setModel:   (NSString*)newModel;
+- (void) setModel:  (NSString*)newModel;
+- (void) setReg:    (NSNumber*)newReg;
 
 
 //convenience set method
@@ -28,5 +30,6 @@
 - (NSString*) make;
 - (NSString*) model;
 - (NSNumber*) vin;
+- (NSNumber*) reg;
 
 @end
