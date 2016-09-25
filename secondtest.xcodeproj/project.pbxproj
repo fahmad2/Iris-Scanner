@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A8A549B1D9875A60012E155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A549A1D9875A60012E155 /* main.m */; };
+		3A8A54A31D9876030012E155 /* SimpleCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A54A21D9876030012E155 /* SimpleCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3A8A54971D9875A60012E155 /* secondtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = secondtest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8A549A1D9875A60012E155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A8A54A11D9876030012E155 /* SimpleCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCar.h; sourceTree = "<group>"; };
+		3A8A54A21D9876030012E155 /* SimpleCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		3A8A548E1D9875A60012E155 = {
 			isa = PBXGroup;
 			children = (
+				3A8A54A11D9876030012E155 /* SimpleCar.h */,
+				3A8A54A21D9876030012E155 /* SimpleCar.m */,
 				3A8A54991D9875A60012E155 /* secondtest */,
 				3A8A54981D9875A60012E155 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8A54A31D9876030012E155 /* SimpleCar.m in Sources */,
 				3A8A549B1D9875A60012E155 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
