@@ -13,7 +13,7 @@
 //set methods
 - (void) setVin:    (NSNumber*)newVin {
     [vin release];
-    vin [[NSString alloc] init];
+    vin [[NSNumber alloc] init];
     vin = newVin;
 }
 
